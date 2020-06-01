@@ -1,4 +1,4 @@
-from debian:stable
+FROM debian:stable
 
 COPY install.sh .
 
