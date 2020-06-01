@@ -4,6 +4,7 @@ COPY install.sh .
 
 RUN apt-get update \
  && apt-get install -y --force-yes \
+      git \
       wget \
  && ./install.sh \
  && rm ./install.sh
